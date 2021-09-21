@@ -3,7 +3,7 @@ package com.plcoding.streamchatapp
 import android.app.Application
 import dagger.hilt.android.HiltAndroidApp
 import io.getstream.chat.android.client.ChatClient
-import io.getstream.chat.android.offline.ChatDomain
+import io.getstream.chat.android.livedata.ChatDomain
 import javax.inject.Inject
 
 @HiltAndroidApp
